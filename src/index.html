@@ -29,12 +29,34 @@
     <title>Générateur simple d'attestations COVID-19</title>
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Attestation Facile</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Générateur</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
     <main role="main">
         <p
             class="alert  alert-danger  d-none"
             role="alert"
             id="alert-facebook"
         ></p>
+        <div class="container">
+            <div class="jumbotron mt-3">
+                <h1 class="display-4">Attestation Facile</h1>
+                <p class="lead">Si vous en avez marre de rentrer vos informations à chaque fois que vous faites une attestation, ce site est fait pour vous !</p>
+                <hr class="my-4">
+                <p>Ce site n'est pas un site officiel du gouvernement. Si vous voulez comprendre comment j'ai fait pour le developper :</p>
+                <a class="btn btn-primary btn-lg center" href="#" role="button">En savoir plus !</a>
+            </div>
+        </div>
+       
 
         <div class="wrapper">
             <form id="form-profile" accept-charset="UTF-8"></form>
@@ -46,35 +68,12 @@
                 L'attestation est téléchargée sur votre appareil.
             </div>
         </div>
-
-        <div id="footnotes">
-            <p id="footnote1">
-                [1] Les personnes souhaitant bénéficier de l'une de ces exceptions doivent se munir s'il y a lieu, lors de leurs déplacements hors de leur domicile, d'un document leur permettant de justifier que le déplacement considéré entre dans le champ de l'une de ces exceptions.
-            </p>
-            <p id="footnote2">
-                [2]  A utiliser par les travailleurs non salariés, lorsqu'ils ne peuvent disposer d'un justificatif de déplacement établi par leur employeur.
-            </p>
-            <p id="footnote3">
-                [3] Y compris les acquisitions à titre gratuit (distribution de denrées alimentaires...) et les déplacements liés à la perception de prestations sociales et au retrait d'espèces.
-            </p>
-        </div>
-        <p class="github">
-            Le code source de ce service est consultable sur <a href="https://github.com/LAB-MI/attestation-deplacement-derogatoire-q4-2020" class="github-link">GitHub</a>.
-        </p>
-        <p class="label-mi">
-            Ministère de l'Intérieur - DNUM - SDIT
-        </p>
-        <picture class="center">
-          <source srcset="/logo_dnum_dark.svg" media="(prefers-color-scheme: dark)">
-            <img class="center" src="/logo_dnum.svg" alt="logo dnum">
-        </picture>
     </main>
     <footer role="contentinfo" class="main-footer">
         <div class="footer-links">
             <a href="./confidentialite.html" title="Confidentialité - nouvelle page" target="_blank" class="footer-line footer-link">Confidentialité</a>
             <a href="https://www.interieur.gouv.fr/Infos-du-site/Mentions-legales" title="Mentions légales - nouvelle page" target="_blank" class="footer-line footer-link">Mentions légales</a>
             <a href="https://www.gouvernement.fr/info-coronavirus" title="Information du gouvernement sur le Covid-19 - nouvelle page" target="_blank" class="footer-line footer-link">Informations du gouvernement sur le Covid-19</a>
-            <div class="footer-line" >Plus d’infos au <a class="num-08" href="tel:0800130000" title="Numéro vert - appel gratuit depuis un poste fixe en France">0 800 130 000</a></div>
             <p class="footer-line" id="version"></p>
         </div>
     </footer>

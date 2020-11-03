@@ -31,5 +31,5 @@ export function addSlash (str) {
 export function addVersion (version) {
   document.getElementById(
     'version',
-  ).innerHTML = `${new Date().getFullYear()} - ${version}`
+  ).innerHTML = `${new Date().getFullYear()} - Attestation-facile.fr - Créer par <a href="https://www.youtube.com/channel/UCWv8AVOyzOnAkYS9TSpeQaA" target="__blank">Cassim Khouani</a>`
 }
