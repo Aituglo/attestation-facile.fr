@@ -110,11 +110,11 @@
       "items": [
         {
           "code": "travail",
-          "label": "Travail"
+          "label": "Déplacement Domicile-Travail"
         },
         {
           "code": "achats",
-          "label": "Achats"
+          "label": "Achats de première nécessité"
         },
         {
           "code": "sante",
@@ -122,7 +122,7 @@
         },
         {
           "code": "famille",
-          "label": "Famille"
+          "label": "Motif familial impérieux"
         },
         {
           "code": "handicap",
@@ -134,11 +134,11 @@
         },
         {
           "code": "convocation",
-          "label": "Convocation"
+          "label": "Convocation judiciaire et administrative"
         },
         {
           "code": "missions",
-          "label": "Missions"
+          "label": "Mission d'intérêt général"
         },
         {
           "code": "enfants",

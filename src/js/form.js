@@ -78,7 +78,7 @@ const createFormGroup = ({
 }
 
 const createReasonField = (reasonData) => {
-  const formReasonAttrs = { className: 'form-checkbox align-items-center' }
+  const formReasonAttrs = { className: 'form-checkbox align-items-center center text-center' }
   const formReason = createElement('div', formReasonAttrs)
   const appendToReason = appendTo(formReason)
 
